@@ -11,6 +11,7 @@
 		190595AC2A841085004C8179 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190595AB2A841085004C8179 /* ContentView.swift */; };
 		190595B22A841086004C8179 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190595B12A841086004C8179 /* Preview Assets.xcassets */; };
 		19178A6B2A87F90500CFDE5E /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19178A6A2A87F90500CFDE5E /* utils.swift */; };
+		194F1E972AE3E6E800509BB3 /* BodyMeasurementsFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194F1E962AE3E6E800509BB3 /* BodyMeasurementsFormView.swift */; };
 		198A50D42A9D44CE0099F0A5 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A50D32A9D44CE0099F0A5 /* VisualEffectBlur.swift */; };
 		198A50D72A9DB6C40099F0A5 /* BatteryRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A50D62A9DB6C40099F0A5 /* BatteryRectangleView.swift */; };
 		198A50D92A9DC2640099F0A5 /* StepsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A50D82A9DC2640099F0A5 /* StepsCardView.swift */; };
@@ -45,6 +46,7 @@
 		190595AF2A841086004C8179 /* pedometer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pedometer.entitlements; sourceTree = "<group>"; };
 		190595B12A841086004C8179 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		19178A6A2A87F90500CFDE5E /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		194F1E962AE3E6E800509BB3 /* BodyMeasurementsFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMeasurementsFormView.swift; sourceTree = "<group>"; };
 		196BD3DC2A8BFA4C0077B526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		198A50D32A9D44CE0099F0A5 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		198A50D62A9DB6C40099F0A5 /* BatteryRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryRectangleView.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				19BD72352AAA75570039617C /* WorkoutsView.swift */,
 				19A39FE12AACC06C00302CF7 /* OnboardingView.swift */,
 				19BBDE172AAF97C900559F30 /* MapView.swift */,
+				194F1E962AE3E6E800509BB3 /* BodyMeasurementsFormView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				19BD71DA2AA7FCBC0039617C /* Settings.swift in Sources */,
 				19BD72322AAA6F5B0039617C /* TabBarViewItem.swift in Sources */,
 				198A50D92A9DC2640099F0A5 /* StepsCardView.swift in Sources */,
+				194F1E972AE3E6E800509BB3 /* BodyMeasurementsFormView.swift in Sources */,
 				19BD71D62AA527690039617C /* PedometerDetails.swift in Sources */,
 				198A50D72A9DB6C40099F0A5 /* BatteryRectangleView.swift in Sources */,
 				19BD71D82AA7FB090039617C /* UserDefaults.swift in Sources */,
