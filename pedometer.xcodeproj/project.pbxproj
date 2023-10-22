@@ -10,6 +10,8 @@
 		190595AA2A841085004C8179 /* pedometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190595A92A841085004C8179 /* pedometerApp.swift */; };
 		190595AC2A841085004C8179 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190595AB2A841085004C8179 /* ContentView.swift */; };
 		190595B22A841086004C8179 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190595B12A841086004C8179 /* Preview Assets.xcassets */; };
+		190DC4A22AE568CB002ABEAE /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 190DC4A12AE568CB002ABEAE /* Localizable.xcstrings */; };
+		190DC4A72AE57BD7002ABEAE /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 190DC4A62AE57BD7002ABEAE /* InfoPlist.xcstrings */; };
 		19178A6B2A87F90500CFDE5E /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19178A6A2A87F90500CFDE5E /* utils.swift */; };
 		194F1E972AE3E6E800509BB3 /* BodyMeasurementsFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194F1E962AE3E6E800509BB3 /* BodyMeasurementsFormView.swift */; };
 		198A50D42A9D44CE0099F0A5 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A50D32A9D44CE0099F0A5 /* VisualEffectBlur.swift */; };
@@ -45,6 +47,8 @@
 		190595AB2A841085004C8179 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		190595AF2A841086004C8179 /* pedometer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pedometer.entitlements; sourceTree = "<group>"; };
 		190595B12A841086004C8179 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		190DC4A12AE568CB002ABEAE /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = Localizable.xcstrings; path = Views/Components/Localizable.xcstrings; sourceTree = "<group>"; };
+		190DC4A62AE57BD7002ABEAE /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		19178A6A2A87F90500CFDE5E /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		194F1E962AE3E6E800509BB3 /* BodyMeasurementsFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMeasurementsFormView.swift; sourceTree = "<group>"; };
 		196BD3DC2A8BFA4C0077B526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 		190595A82A841085004C8179 /* pedometer */ = {
 			isa = PBXGroup;
 			children = (
+				190DC4A12AE568CB002ABEAE /* Localizable.xcstrings */,
 				19BD721B2AA947C10039617C /* Controllers */,
 				196BD3DC2A8BFA4C0077B526 /* Info.plist */,
 				196BD3DB2A8BF8400077B526 /* Data */,
@@ -115,6 +120,7 @@
 				19BBDE1B2AB0891B00559F30 /* Assets.xcassets */,
 				190595AF2A841086004C8179 /* pedometer.entitlements */,
 				190595B02A841086004C8179 /* Preview Content */,
+				190DC4A62AE57BD7002ABEAE /* InfoPlist.xcstrings */,
 			);
 			path = pedometer;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 1905959D2A841085004C8179;
 			packageReferences = (
@@ -277,6 +284,8 @@
 			files = (
 				190595B22A841086004C8179 /* Preview Assets.xcassets in Resources */,
 				19BBDE1C2AB0891B00559F30 /* Assets.xcassets in Resources */,
+				190DC4A72AE57BD7002ABEAE /* InfoPlist.xcstrings in Resources */,
+				190DC4A22AE568CB002ABEAE /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
