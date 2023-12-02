@@ -12,8 +12,13 @@
 		190595B22A841086004C8179 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190595B12A841086004C8179 /* Preview Assets.xcassets */; };
 		190DC4A22AE568CB002ABEAE /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 190DC4A12AE568CB002ABEAE /* Localizable.xcstrings */; };
 		190DC4A72AE57BD7002ABEAE /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 190DC4A62AE57BD7002ABEAE /* InfoPlist.xcstrings */; };
+		190DC4AA2AEEF614002ABEAE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190DC4A92AEEF614002ABEAE /* LoginView.swift */; };
+		190DC4AC2AEEF858002ABEAE /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190DC4AB2AEEF858002ABEAE /* RegisterView.swift */; };
 		19178A6B2A87F90500CFDE5E /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19178A6A2A87F90500CFDE5E /* utils.swift */; };
 		194F1E972AE3E6E800509BB3 /* BodyMeasurementsFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194F1E962AE3E6E800509BB3 /* BodyMeasurementsFormView.swift */; };
+		197F0BF02B09619900D12E38 /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F0BEF2B09619900D12E38 /* Leaderboard.swift */; };
+		197F0BF32B0961E600D12E38 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F0BF22B0961E600D12E38 /* APIService.swift */; };
+		197F0BF52B0963A000D12E38 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F0BF42B0963A000D12E38 /* APIError.swift */; };
 		198A50D42A9D44CE0099F0A5 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A50D32A9D44CE0099F0A5 /* VisualEffectBlur.swift */; };
 		198A50D72A9DB6C40099F0A5 /* BatteryRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A50D62A9DB6C40099F0A5 /* BatteryRectangleView.swift */; };
 		198A50D92A9DC2640099F0A5 /* StepsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A50D82A9DC2640099F0A5 /* StepsCardView.swift */; };
@@ -21,9 +26,11 @@
 		198A50DD2A9E481B0099F0A5 /* CirularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A50DC2A9E481B0099F0A5 /* CirularProgressView.swift */; };
 		198A50DF2AA013F70099F0A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A50DE2AA013F70099F0A5 /* HomeView.swift */; };
 		198A50E12AA01C3C0099F0A5 /* DisplayTimePeriodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A50E02AA01C3C0099F0A5 /* DisplayTimePeriodView.swift */; };
+		19A1F8D52B00EC4300D05588 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A1F8D42B00EC4300D05588 /* LeaderboardView.swift */; };
+		19A1F8D72B00EDA600D05588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A1F8D62B00EDA600D05588 /* Assets.xcassets */; };
 		19A39FE22AACC06C00302CF7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A39FE12AACC06C00302CF7 /* OnboardingView.swift */; };
+		19B4AEB92B092D4A0034D926 /* LeaderboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B4AEB82B092D4A0034D926 /* LeaderboardService.swift */; };
 		19BBDE182AAF97C900559F30 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BBDE172AAF97C900559F30 /* MapView.swift */; };
-		19BBDE1C2AB0891B00559F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19BBDE1B2AB0891B00559F30 /* Assets.xcassets */; };
 		19BD71D62AA527690039617C /* PedometerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD71D52AA527690039617C /* PedometerDetails.swift */; };
 		19BD71D82AA7FB090039617C /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD71D72AA7FB090039617C /* UserDefaults.swift */; };
 		19BD71DA2AA7FCBC0039617C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD71D92AA7FCBC0039617C /* Settings.swift */; };
@@ -35,8 +42,9 @@
 		19BD72322AAA6F5B0039617C /* TabBarViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD72312AAA6F5B0039617C /* TabBarViewItem.swift */; };
 		19BD72342AAA6F8A0039617C /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD72332AAA6F8A0039617C /* TabBarView.swift */; };
 		19BD72362AAA75570039617C /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD72352AAA75570039617C /* WorkoutsView.swift */; };
-		19BD723A2AAA7F410039617C /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD72392AAA7F410039617C /* MapManager.swift */; };
 		19BD723C2AAC62650039617C /* Workout+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD723B2AAC62650039617C /* Workout+helper.swift */; };
+		19CA81D02B1284830020B0AB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CA81CF2B1284830020B0AB /* AuthService.swift */; };
+		19CA81D22B1284930020B0AB /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CA81D12B1284930020B0AB /* Auth.swift */; };
 		19CBF9FB2A9BD5D6000D0495 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CBF9FA2A9BD5D6000D0495 /* HeaderView.swift */; };
 		19E9586D2A8E8D9F0064ACF9 /* PedometerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9586C2A8E8D9F0064ACF9 /* PedometerManager.swift */; };
 /* End PBXBuildFile section */
@@ -49,9 +57,14 @@
 		190595B12A841086004C8179 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		190DC4A12AE568CB002ABEAE /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = Localizable.xcstrings; path = Views/Components/Localizable.xcstrings; sourceTree = "<group>"; };
 		190DC4A62AE57BD7002ABEAE /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		190DC4A92AEEF614002ABEAE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		190DC4AB2AEEF858002ABEAE /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		19178A6A2A87F90500CFDE5E /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		194F1E962AE3E6E800509BB3 /* BodyMeasurementsFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMeasurementsFormView.swift; sourceTree = "<group>"; };
 		196BD3DC2A8BFA4C0077B526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		197F0BEF2B09619900D12E38 /* Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
+		197F0BF22B0961E600D12E38 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		197F0BF42B0963A000D12E38 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		198A50D32A9D44CE0099F0A5 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		198A50D62A9DB6C40099F0A5 /* BatteryRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryRectangleView.swift; sourceTree = "<group>"; };
 		198A50D82A9DC2640099F0A5 /* StepsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsCardView.swift; sourceTree = "<group>"; };
@@ -59,9 +72,11 @@
 		198A50DC2A9E481B0099F0A5 /* CirularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirularProgressView.swift; sourceTree = "<group>"; };
 		198A50DE2AA013F70099F0A5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		198A50E02AA01C3C0099F0A5 /* DisplayTimePeriodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTimePeriodView.swift; sourceTree = "<group>"; };
+		19A1F8D42B00EC4300D05588 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		19A1F8D62B00EDA600D05588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19A39FE12AACC06C00302CF7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		19B4AEB82B092D4A0034D926 /* LeaderboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardService.swift; sourceTree = "<group>"; };
 		19BBDE172AAF97C900559F30 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		19BBDE1B2AB0891B00559F30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/AppIcons (1)/Assets.xcassets"; sourceTree = "<group>"; };
 		19BD71D52AA527690039617C /* PedometerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerDetails.swift; sourceTree = "<group>"; };
 		19BD71D72AA7FB090039617C /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		19BD71D92AA7FCBC0039617C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -73,8 +88,9 @@
 		19BD72312AAA6F5B0039617C /* TabBarViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewItem.swift; sourceTree = "<group>"; };
 		19BD72332AAA6F8A0039617C /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		19BD72352AAA75570039617C /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
-		19BD72392AAA7F410039617C /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
 		19BD723B2AAC62650039617C /* Workout+helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Workout+helper.swift"; sourceTree = "<group>"; };
+		19CA81CF2B1284830020B0AB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		19CA81D12B1284930020B0AB /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		19CBF9FA2A9BD5D6000D0495 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		19E9586C2A8E8D9F0064ACF9 /* PedometerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +126,8 @@
 		190595A82A841085004C8179 /* pedometer */ = {
 			isa = PBXGroup;
 			children = (
+				197F0BF12B0961BF00D12E38 /* Networking */,
+				197F0BEE2B09617900D12E38 /* Model */,
 				190DC4A12AE568CB002ABEAE /* Localizable.xcstrings */,
 				19BD721B2AA947C10039617C /* Controllers */,
 				196BD3DC2A8BFA4C0077B526 /* Info.plist */,
@@ -117,10 +135,10 @@
 				196BD3DA2A8BF8060077B526 /* Services */,
 				190595A92A841085004C8179 /* pedometerApp.swift */,
 				19178A762A8816E600CFDE5E /* Views */,
-				19BBDE1B2AB0891B00559F30 /* Assets.xcassets */,
 				190595AF2A841086004C8179 /* pedometer.entitlements */,
 				190595B02A841086004C8179 /* Preview Content */,
 				190DC4A62AE57BD7002ABEAE /* InfoPlist.xcstrings */,
+				19A1F8D62B00EDA600D05588 /* Assets.xcassets */,
 			);
 			path = pedometer;
 			sourceTree = "<group>";
@@ -131,6 +149,15 @@
 				190595B12A841086004C8179 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		190DC4A82AEEF606002ABEAE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				190DC4A92AEEF614002ABEAE /* LoginView.swift */,
+				190DC4AB2AEEF858002ABEAE /* RegisterView.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		19178A762A8816E600CFDE5E /* Views */ = {
@@ -147,6 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				19178A6A2A87F90500CFDE5E /* utils.swift */,
+				19B4AEB82B092D4A0034D926 /* LeaderboardService.swift */,
+				19CA81CF2B1284830020B0AB /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -162,6 +191,24 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		197F0BEE2B09617900D12E38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				197F0BEF2B09619900D12E38 /* Leaderboard.swift */,
+				19CA81D12B1284930020B0AB /* Auth.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		197F0BF12B0961BF00D12E38 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				197F0BF22B0961E600D12E38 /* APIService.swift */,
+				197F0BF42B0963A000D12E38 /* APIError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		198A50D22A9D44B20099F0A5 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +220,8 @@
 		198A50D52A9DB6AD0099F0A5 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				19A1F8D32B00EC3300D05588 /* Leaderboard */,
+				190DC4A82AEEF606002ABEAE /* Auth */,
 				19CBF9FA2A9BD5D6000D0495 /* HeaderView.swift */,
 				198A50D62A9DB6C40099F0A5 /* BatteryRectangleView.swift */,
 				198A50D82A9DC2640099F0A5 /* StepsCardView.swift */,
@@ -192,11 +241,18 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		19A1F8D32B00EC3300D05588 /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				19A1F8D42B00EC4300D05588 /* LeaderboardView.swift */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
 		19BD721B2AA947C10039617C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				19E9586C2A8E8D9F0064ACF9 /* PedometerManager.swift */,
-				19BD72392AAA7F410039617C /* MapManager.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -249,7 +305,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					190595A52A841085004C8179 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -283,9 +339,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				190595B22A841086004C8179 /* Preview Assets.xcassets in Resources */,
-				19BBDE1C2AB0891B00559F30 /* Assets.xcassets in Resources */,
 				190DC4A72AE57BD7002ABEAE /* InfoPlist.xcstrings in Resources */,
 				190DC4A22AE568CB002ABEAE /* Localizable.xcstrings in Resources */,
+				19A1F8D72B00EDA600D05588 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +353,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				19BD722C2AA94BF90039617C /* NSPredicate+helper.swift in Sources */,
+				197F0BF02B09619900D12E38 /* Leaderboard.swift in Sources */,
+				190DC4AA2AEEF614002ABEAE /* LoginView.swift in Sources */,
+				197F0BF52B0963A000D12E38 /* APIError.swift in Sources */,
 				198A50DB2A9E43B30099F0A5 /* PedometerStatsView.swift in Sources */,
+				197F0BF32B0961E600D12E38 /* APIService.swift in Sources */,
 				19178A6B2A87F90500CFDE5E /* utils.swift in Sources */,
 				190595AC2A841085004C8179 /* ContentView.swift in Sources */,
-				19BD723A2AAA7F410039617C /* MapManager.swift in Sources */,
+				19A1F8D52B00EC4300D05588 /* LeaderboardView.swift in Sources */,
 				19BD721F2AA947F60039617C /* PedometerInterval+helper.swift in Sources */,
 				19BD723C2AAC62650039617C /* Workout+helper.swift in Sources */,
 				19BBDE182AAF97C900559F30 /* MapView.swift in Sources */,
@@ -314,9 +374,12 @@
 				19BD72362AAA75570039617C /* WorkoutsView.swift in Sources */,
 				19BD71FF2AA9343A0039617C /* Persistance.swift in Sources */,
 				19BD72342AAA6F8A0039617C /* TabBarView.swift in Sources */,
+				19B4AEB92B092D4A0034D926 /* LeaderboardService.swift in Sources */,
 				198A50D42A9D44CE0099F0A5 /* VisualEffectBlur.swift in Sources */,
 				19CBF9FB2A9BD5D6000D0495 /* HeaderView.swift in Sources */,
+				190DC4AC2AEEF858002ABEAE /* RegisterView.swift in Sources */,
 				19BD71DA2AA7FCBC0039617C /* Settings.swift in Sources */,
+				19CA81D02B1284830020B0AB /* AuthService.swift in Sources */,
 				19BD72322AAA6F5B0039617C /* TabBarViewItem.swift in Sources */,
 				198A50D92A9DC2640099F0A5 /* StepsCardView.swift in Sources */,
 				194F1E972AE3E6E800509BB3 /* BodyMeasurementsFormView.swift in Sources */,
@@ -324,6 +387,7 @@
 				198A50D72A9DB6C40099F0A5 /* BatteryRectangleView.swift in Sources */,
 				19BD71D82AA7FB090039617C /* UserDefaults.swift in Sources */,
 				198A50DD2A9E481B0099F0A5 /* CirularProgressView.swift in Sources */,
+				19CA81D22B1284930020B0AB /* Auth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -363,9 +428,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -393,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -422,9 +490,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -450,8 +520,10 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"pedometer/Preview Content\"";
 				DEVELOPMENT_TEAM = 9S23X347KS;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pedometer/Info.plist;
@@ -474,7 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.2;
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.usamahfallatah.pedometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -497,8 +569,10 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"pedometer/Preview Content\"";
 				DEVELOPMENT_TEAM = 9S23X347KS;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pedometer/Info.plist;
@@ -521,7 +595,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.2;
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.usamahfallatah.pedometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
