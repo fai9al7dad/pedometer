@@ -16,6 +16,9 @@
 		190DC4AC2AEEF858002ABEAE /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190DC4AB2AEEF858002ABEAE /* RegisterView.swift */; };
 		19178A6B2A87F90500CFDE5E /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19178A6A2A87F90500CFDE5E /* utils.swift */; };
 		194F1E972AE3E6E800509BB3 /* BodyMeasurementsFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194F1E962AE3E6E800509BB3 /* BodyMeasurementsFormView.swift */; };
+		1953E7D72B1D10B5009218D5 /* ValidatedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1953E7D62B1D10B5009218D5 /* ValidatedTextField.swift */; };
+		1953E7D92B1D4521009218D5 /* PedometerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1953E7D82B1D4521009218D5 /* PedometerService.swift */; };
+		1953E7DB2B1D6908009218D5 /* AppMetaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1953E7DA2B1D6908009218D5 /* AppMetaService.swift */; };
 		197F0BF02B09619900D12E38 /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F0BEF2B09619900D12E38 /* Leaderboard.swift */; };
 		197F0BF32B0961E600D12E38 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F0BF22B0961E600D12E38 /* APIService.swift */; };
 		197F0BF52B0963A000D12E38 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F0BF42B0963A000D12E38 /* APIError.swift */; };
@@ -50,7 +53,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		190595A62A841085004C8179 /* pedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		190595A92A841085004C8179 /* pedometerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pedometerApp.swift; sourceTree = "<group>"; };
 		190595AB2A841085004C8179 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		190595AF2A841086004C8179 /* pedometer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pedometer.entitlements; sourceTree = "<group>"; };
@@ -61,6 +63,10 @@
 		190DC4AB2AEEF858002ABEAE /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		19178A6A2A87F90500CFDE5E /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		194F1E962AE3E6E800509BB3 /* BodyMeasurementsFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMeasurementsFormView.swift; sourceTree = "<group>"; };
+		1953E7D52B1CEDB4009218D5 /* pedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1953E7D62B1D10B5009218D5 /* ValidatedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatedTextField.swift; sourceTree = "<group>"; };
+		1953E7D82B1D4521009218D5 /* PedometerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerService.swift; sourceTree = "<group>"; };
+		1953E7DA2B1D6908009218D5 /* AppMetaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMetaService.swift; sourceTree = "<group>"; };
 		196BD3DC2A8BFA4C0077B526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		197F0BEF2B09619900D12E38 /* Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
 		197F0BF22B0961E600D12E38 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
@@ -110,17 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				190595A82A841085004C8179 /* pedometer */,
-				190595A72A841085004C8179 /* Products */,
 				19CBF9EB2A95D651000D0495 /* Frameworks */,
+				1953E7D52B1CEDB4009218D5 /* pedometer.app */,
 			);
-			sourceTree = "<group>";
-		};
-		190595A72A841085004C8179 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				190595A62A841085004C8179 /* pedometer.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		190595A82A841085004C8179 /* pedometer */ = {
@@ -176,6 +174,8 @@
 				19178A6A2A87F90500CFDE5E /* utils.swift */,
 				19B4AEB82B092D4A0034D926 /* LeaderboardService.swift */,
 				19CA81CF2B1284830020B0AB /* AuthService.swift */,
+				1953E7D82B1D4521009218D5 /* PedometerService.swift */,
+				1953E7DA2B1D6908009218D5 /* AppMetaService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -213,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				198A50D32A9D44CE0099F0A5 /* VisualEffectBlur.swift */,
+				1953E7D62B1D10B5009218D5 /* ValidatedTextField.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -294,7 +295,7 @@
 			packageProductDependencies = (
 			);
 			productName = pedometer;
-			productReference = 190595A62A841085004C8179 /* pedometer.app */;
+			productReference = 1953E7D52B1CEDB4009218D5 /* pedometer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -324,7 +325,7 @@
 			mainGroup = 1905959D2A841085004C8179;
 			packageReferences = (
 			);
-			productRefGroup = 190595A72A841085004C8179 /* Products */;
+			productRefGroup = 1905959D2A841085004C8179;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -375,8 +376,10 @@
 				19BD71FF2AA9343A0039617C /* Persistance.swift in Sources */,
 				19BD72342AAA6F8A0039617C /* TabBarView.swift in Sources */,
 				19B4AEB92B092D4A0034D926 /* LeaderboardService.swift in Sources */,
+				1953E7DB2B1D6908009218D5 /* AppMetaService.swift in Sources */,
 				198A50D42A9D44CE0099F0A5 /* VisualEffectBlur.swift in Sources */,
 				19CBF9FB2A9BD5D6000D0495 /* HeaderView.swift in Sources */,
+				1953E7D92B1D4521009218D5 /* PedometerService.swift in Sources */,
 				190DC4AC2AEEF858002ABEAE /* RegisterView.swift in Sources */,
 				19BD71DA2AA7FCBC0039617C /* Settings.swift in Sources */,
 				19CA81D02B1284830020B0AB /* AuthService.swift in Sources */,
@@ -384,6 +387,7 @@
 				198A50D92A9DC2640099F0A5 /* StepsCardView.swift in Sources */,
 				194F1E972AE3E6E800509BB3 /* BodyMeasurementsFormView.swift in Sources */,
 				19BD71D62AA527690039617C /* PedometerDetails.swift in Sources */,
+				1953E7D72B1D10B5009218D5 /* ValidatedTextField.swift in Sources */,
 				198A50D72A9DB6C40099F0A5 /* BatteryRectangleView.swift in Sources */,
 				19BD71D82AA7FB090039617C /* UserDefaults.swift in Sources */,
 				198A50DD2A9E481B0099F0A5 /* CirularProgressView.swift in Sources */,
@@ -522,7 +526,7 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"pedometer/Preview Content\"";
-				DEVELOPMENT_TEAM = 9S23X347KS;
+				DEVELOPMENT_TEAM = HTHUB7LWV6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -571,7 +575,7 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"pedometer/Preview Content\"";
-				DEVELOPMENT_TEAM = 9S23X347KS;
+				DEVELOPMENT_TEAM = HTHUB7LWV6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
