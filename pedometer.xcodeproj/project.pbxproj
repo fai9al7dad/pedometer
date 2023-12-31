@@ -10,6 +10,7 @@
 		190595AA2A841085004C8179 /* pedometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190595A92A841085004C8179 /* pedometerApp.swift */; };
 		190595AC2A841085004C8179 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190595AB2A841085004C8179 /* ContentView.swift */; };
 		190595B22A841086004C8179 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190595B12A841086004C8179 /* Preview Assets.xcassets */; };
+		190A56F52B23CADA00836323 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190A56F42B23CADA00836323 /* ForgotPasswordView.swift */; };
 		190DC4A22AE568CB002ABEAE /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 190DC4A12AE568CB002ABEAE /* Localizable.xcstrings */; };
 		190DC4A72AE57BD7002ABEAE /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 190DC4A62AE57BD7002ABEAE /* InfoPlist.xcstrings */; };
 		190DC4AA2AEEF614002ABEAE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190DC4A92AEEF614002ABEAE /* LoginView.swift */; };
@@ -57,6 +58,7 @@
 		190595AB2A841085004C8179 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		190595AF2A841086004C8179 /* pedometer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pedometer.entitlements; sourceTree = "<group>"; };
 		190595B12A841086004C8179 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		190A56F42B23CADA00836323 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		190DC4A12AE568CB002ABEAE /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = Localizable.xcstrings; path = Views/Components/Localizable.xcstrings; sourceTree = "<group>"; };
 		190DC4A62AE57BD7002ABEAE /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		190DC4A92AEEF614002ABEAE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		190DC4A82AEEF606002ABEAE /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				190A56F42B23CADA00836323 /* ForgotPasswordView.swift */,
 				190DC4A92AEEF614002ABEAE /* LoginView.swift */,
 				190DC4AB2AEEF858002ABEAE /* RegisterView.swift */,
 			);
@@ -371,6 +374,7 @@
 				198A50E12AA01C3C0099F0A5 /* DisplayTimePeriodView.swift in Sources */,
 				19A39FE22AACC06C00302CF7 /* OnboardingView.swift in Sources */,
 				19BD721D2AA947E00039617C /* PedometerStat+helper.swift in Sources */,
+				190A56F52B23CADA00836323 /* ForgotPasswordView.swift in Sources */,
 				198A50DF2AA013F70099F0A5 /* HomeView.swift in Sources */,
 				19BD72362AAA75570039617C /* WorkoutsView.swift in Sources */,
 				19BD71FF2AA9343A0039617C /* Persistance.swift in Sources */,
@@ -526,12 +530,12 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"pedometer/Preview Content\"";
-				DEVELOPMENT_TEAM = HTHUB7LWV6;
+				DEVELOPMENT_TEAM = 9S23X347KS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pedometer/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = pedometer;
+				INFOPLIST_KEY_CFBundleDisplayName = solayk;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "we need this to show you a map to see your route when working out";
 				INFOPLIST_KEY_NSMotionUsageDescription = "Please grant Pedometer permission to access Core Motion by tapping \"Allow\" , your data will be used solely for the purpose of helping you achieve your fitness goals.";
@@ -543,14 +547,14 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.2;
-				MARKETING_VERSION = 0.2;
+				MARKETING_VERSION = 3.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.usamahfallatah.pedometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -575,12 +579,12 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"pedometer/Preview Content\"";
-				DEVELOPMENT_TEAM = HTHUB7LWV6;
+				DEVELOPMENT_TEAM = 9S23X347KS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pedometer/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = pedometer;
+				INFOPLIST_KEY_CFBundleDisplayName = solayk;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "we need this to show you a map to see your route when working out";
 				INFOPLIST_KEY_NSMotionUsageDescription = "Please grant Pedometer permission to access Core Motion by tapping \"Allow\" , your data will be used solely for the purpose of helping you achieve your fitness goals.";
@@ -592,14 +596,14 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.2;
-				MARKETING_VERSION = 0.2;
+				MARKETING_VERSION = 3.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.usamahfallatah.pedometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
